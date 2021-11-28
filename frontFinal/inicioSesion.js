@@ -16,7 +16,7 @@ submit.addEventListener("click",function(){
 
             if(datosDB.length < 1){
 
-                respuesta = "Usuario no existeee mkon"
+                respuesta = "Usuario no existe"
 
             }else{
                 
@@ -32,7 +32,7 @@ submit.addEventListener("click",function(){
                         }
 
                     }else{
-                        respuesta = "Usuario no existewww"
+                        respuesta = "Usuario no existe"
                     }
 
                 }

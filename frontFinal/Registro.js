@@ -23,7 +23,7 @@ submit1.addEventListener("click", function () {
                 
                 if (password1.value == password2.value) {
                     realiceAjax()
-                    respuesta ="enviado cuando no habia nada"
+                    respuesta ="Usuario registrado con exito"
                 }else{
                     respuesta ="contraseñas no coinciden"
                 }
@@ -65,9 +65,9 @@ function validatePassword(){
 
         if (arrayEmailExistente.length < 1) {
                 realiceAjax()
-            respuesta = "Cuenta creada de forma correcta"
+            respuesta = "Usuario registrado con exito"
         } else {
-            respuesta = " Usuario ya existe pailox"
+            respuesta = "Usuario ya existe"
         }
 
     }
